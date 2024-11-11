@@ -1,0 +1,202 @@
+[gadi-gpu-v100-0080.gadi.nci.org.au:2578521] MCW rank 6 bound to socket 0[core 2[hwt 0]]: [././B/././././././././././././././././././././.][./././././././././././././././././././././././.]
+[LOG_CAT_ML] component basesmuma is not available but requested in hierarchy: basesmuma,basesmuma,ucx_p2p:basesmsocket,basesmuma,p2p
+[LOG_CAT_ML] ml_discover_hierarchy exited with error
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/8
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Seed set to 1337
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.0 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.0.attn.attn.lora_A', 'transformer.h.0.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.0.norm_1.weight', 'transformer.h.0.norm_2.weight', 'transformer.h.0.attn.attn.linear.weight', 'transformer.h.0.attn.proj.linear.weight', 'transformer.h.0.mlp.fc_1.linear.weight', 'transformer.h.0.mlp.fc_2.linear.weight', 'transformer.h.0.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.1 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.1.attn.attn.lora_A', 'transformer.h.1.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.1.norm_1.weight', 'transformer.h.1.norm_2.weight', 'transformer.h.1.attn.attn.linear.weight', 'transformer.h.1.attn.proj.linear.weight', 'transformer.h.1.mlp.fc_1.linear.weight', 'transformer.h.1.mlp.fc_2.linear.weight', 'transformer.h.1.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.2 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.2.attn.attn.lora_A', 'transformer.h.2.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.2.norm_1.weight', 'transformer.h.2.norm_2.weight', 'transformer.h.2.attn.attn.linear.weight', 'transformer.h.2.attn.proj.linear.weight', 'transformer.h.2.mlp.fc_1.linear.weight', 'transformer.h.2.mlp.fc_2.linear.weight', 'transformer.h.2.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.3 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.3.attn.attn.lora_A', 'transformer.h.3.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.3.norm_1.weight', 'transformer.h.3.norm_2.weight', 'transformer.h.3.attn.attn.linear.weight', 'transformer.h.3.attn.proj.linear.weight', 'transformer.h.3.mlp.fc_1.linear.weight', 'transformer.h.3.mlp.fc_2.linear.weight', 'transformer.h.3.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.4 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.4.attn.attn.lora_A', 'transformer.h.4.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.4.norm_1.weight', 'transformer.h.4.norm_2.weight', 'transformer.h.4.attn.attn.linear.weight', 'transformer.h.4.attn.proj.linear.weight', 'transformer.h.4.mlp.fc_1.linear.weight', 'transformer.h.4.mlp.fc_2.linear.weight', 'transformer.h.4.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.5 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.5.attn.attn.lora_A', 'transformer.h.5.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.5.norm_1.weight', 'transformer.h.5.norm_2.weight', 'transformer.h.5.attn.attn.linear.weight', 'transformer.h.5.attn.proj.linear.weight', 'transformer.h.5.mlp.fc_1.linear.weight', 'transformer.h.5.mlp.fc_2.linear.weight', 'transformer.h.5.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.6 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.6.attn.attn.lora_A', 'transformer.h.6.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.6.norm_1.weight', 'transformer.h.6.norm_2.weight', 'transformer.h.6.attn.attn.linear.weight', 'transformer.h.6.attn.proj.linear.weight', 'transformer.h.6.mlp.fc_1.linear.weight', 'transformer.h.6.mlp.fc_2.linear.weight', 'transformer.h.6.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.7 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.7.attn.attn.lora_A', 'transformer.h.7.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.7.norm_1.weight', 'transformer.h.7.norm_2.weight', 'transformer.h.7.attn.attn.linear.weight', 'transformer.h.7.attn.proj.linear.weight', 'transformer.h.7.mlp.fc_1.linear.weight', 'transformer.h.7.mlp.fc_2.linear.weight', 'transformer.h.7.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.8 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.8.attn.attn.lora_A', 'transformer.h.8.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.8.norm_1.weight', 'transformer.h.8.norm_2.weight', 'transformer.h.8.attn.attn.linear.weight', 'transformer.h.8.attn.proj.linear.weight', 'transformer.h.8.mlp.fc_1.linear.weight', 'transformer.h.8.mlp.fc_2.linear.weight', 'transformer.h.8.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.9 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.9.attn.attn.lora_A', 'transformer.h.9.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.9.norm_1.weight', 'transformer.h.9.norm_2.weight', 'transformer.h.9.attn.attn.linear.weight', 'transformer.h.9.attn.proj.linear.weight', 'transformer.h.9.mlp.fc_1.linear.weight', 'transformer.h.9.mlp.fc_2.linear.weight', 'transformer.h.9.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.10 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.10.attn.attn.lora_A', 'transformer.h.10.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.10.norm_1.weight', 'transformer.h.10.norm_2.weight', 'transformer.h.10.attn.attn.linear.weight', 'transformer.h.10.attn.proj.linear.weight', 'transformer.h.10.mlp.fc_1.linear.weight', 'transformer.h.10.mlp.fc_2.linear.weight', 'transformer.h.10.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.11 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.11.attn.attn.lora_A', 'transformer.h.11.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.11.norm_1.weight', 'transformer.h.11.norm_2.weight', 'transformer.h.11.attn.attn.linear.weight', 'transformer.h.11.attn.proj.linear.weight', 'transformer.h.11.mlp.fc_1.linear.weight', 'transformer.h.11.mlp.fc_2.linear.weight', 'transformer.h.11.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.12 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.12.attn.attn.lora_A', 'transformer.h.12.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.12.norm_1.weight', 'transformer.h.12.norm_2.weight', 'transformer.h.12.attn.attn.linear.weight', 'transformer.h.12.attn.proj.linear.weight', 'transformer.h.12.mlp.fc_1.linear.weight', 'transformer.h.12.mlp.fc_2.linear.weight', 'transformer.h.12.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.13 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.13.attn.attn.lora_A', 'transformer.h.13.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.13.norm_1.weight', 'transformer.h.13.norm_2.weight', 'transformer.h.13.attn.attn.linear.weight', 'transformer.h.13.attn.proj.linear.weight', 'transformer.h.13.mlp.fc_1.linear.weight', 'transformer.h.13.mlp.fc_2.linear.weight', 'transformer.h.13.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.14 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.14.attn.attn.lora_A', 'transformer.h.14.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.14.norm_1.weight', 'transformer.h.14.norm_2.weight', 'transformer.h.14.attn.attn.linear.weight', 'transformer.h.14.attn.proj.linear.weight', 'transformer.h.14.mlp.fc_1.linear.weight', 'transformer.h.14.mlp.fc_2.linear.weight', 'transformer.h.14.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.15 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.15.attn.attn.lora_A', 'transformer.h.15.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.15.norm_1.weight', 'transformer.h.15.norm_2.weight', 'transformer.h.15.attn.attn.linear.weight', 'transformer.h.15.attn.proj.linear.weight', 'transformer.h.15.mlp.fc_1.linear.weight', 'transformer.h.15.mlp.fc_2.linear.weight', 'transformer.h.15.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.16 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.16.attn.attn.lora_A', 'transformer.h.16.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.16.norm_1.weight', 'transformer.h.16.norm_2.weight', 'transformer.h.16.attn.attn.linear.weight', 'transformer.h.16.attn.proj.linear.weight', 'transformer.h.16.mlp.fc_1.linear.weight', 'transformer.h.16.mlp.fc_2.linear.weight', 'transformer.h.16.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.17 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.17.attn.attn.lora_A', 'transformer.h.17.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.17.norm_1.weight', 'transformer.h.17.norm_2.weight', 'transformer.h.17.attn.attn.linear.weight', 'transformer.h.17.attn.proj.linear.weight', 'transformer.h.17.mlp.fc_1.linear.weight', 'transformer.h.17.mlp.fc_2.linear.weight', 'transformer.h.17.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.18 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.18.attn.attn.lora_A', 'transformer.h.18.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.18.norm_1.weight', 'transformer.h.18.norm_2.weight', 'transformer.h.18.attn.attn.linear.weight', 'transformer.h.18.attn.proj.linear.weight', 'transformer.h.18.mlp.fc_1.linear.weight', 'transformer.h.18.mlp.fc_2.linear.weight', 'transformer.h.18.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.19 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.19.attn.attn.lora_A', 'transformer.h.19.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.19.norm_1.weight', 'transformer.h.19.norm_2.weight', 'transformer.h.19.attn.attn.linear.weight', 'transformer.h.19.attn.proj.linear.weight', 'transformer.h.19.mlp.fc_1.linear.weight', 'transformer.h.19.mlp.fc_2.linear.weight', 'transformer.h.19.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.20 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.20.attn.attn.lora_A', 'transformer.h.20.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.20.norm_1.weight', 'transformer.h.20.norm_2.weight', 'transformer.h.20.attn.attn.linear.weight', 'transformer.h.20.attn.proj.linear.weight', 'transformer.h.20.mlp.fc_1.linear.weight', 'transformer.h.20.mlp.fc_2.linear.weight', 'transformer.h.20.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.21 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.21.attn.attn.lora_A', 'transformer.h.21.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.21.norm_1.weight', 'transformer.h.21.norm_2.weight', 'transformer.h.21.attn.attn.linear.weight', 'transformer.h.21.attn.proj.linear.weight', 'transformer.h.21.mlp.fc_1.linear.weight', 'transformer.h.21.mlp.fc_2.linear.weight', 'transformer.h.21.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.22 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.22.attn.attn.lora_A', 'transformer.h.22.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.22.norm_1.weight', 'transformer.h.22.norm_2.weight', 'transformer.h.22.attn.attn.linear.weight', 'transformer.h.22.attn.proj.linear.weight', 'transformer.h.22.mlp.fc_1.linear.weight', 'transformer.h.22.mlp.fc_2.linear.weight', 'transformer.h.22.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.23 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.23.attn.attn.lora_A', 'transformer.h.23.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.23.norm_1.weight', 'transformer.h.23.norm_2.weight', 'transformer.h.23.attn.attn.linear.weight', 'transformer.h.23.attn.proj.linear.weight', 'transformer.h.23.mlp.fc_1.linear.weight', 'transformer.h.23.mlp.fc_2.linear.weight', 'transformer.h.23.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.24 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.24.attn.attn.lora_A', 'transformer.h.24.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.24.norm_1.weight', 'transformer.h.24.norm_2.weight', 'transformer.h.24.attn.attn.linear.weight', 'transformer.h.24.attn.proj.linear.weight', 'transformer.h.24.mlp.fc_1.linear.weight', 'transformer.h.24.mlp.fc_2.linear.weight', 'transformer.h.24.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.25 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.25.attn.attn.lora_A', 'transformer.h.25.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.25.norm_1.weight', 'transformer.h.25.norm_2.weight', 'transformer.h.25.attn.attn.linear.weight', 'transformer.h.25.attn.proj.linear.weight', 'transformer.h.25.mlp.fc_1.linear.weight', 'transformer.h.25.mlp.fc_2.linear.weight', 'transformer.h.25.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.26 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.26.attn.attn.lora_A', 'transformer.h.26.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.26.norm_1.weight', 'transformer.h.26.norm_2.weight', 'transformer.h.26.attn.attn.linear.weight', 'transformer.h.26.attn.proj.linear.weight', 'transformer.h.26.mlp.fc_1.linear.weight', 'transformer.h.26.mlp.fc_2.linear.weight', 'transformer.h.26.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.27 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.27.attn.attn.lora_A', 'transformer.h.27.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.27.norm_1.weight', 'transformer.h.27.norm_2.weight', 'transformer.h.27.attn.attn.linear.weight', 'transformer.h.27.attn.proj.linear.weight', 'transformer.h.27.mlp.fc_1.linear.weight', 'transformer.h.27.mlp.fc_2.linear.weight', 'transformer.h.27.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.28 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.28.attn.attn.lora_A', 'transformer.h.28.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.28.norm_1.weight', 'transformer.h.28.norm_2.weight', 'transformer.h.28.attn.attn.linear.weight', 'transformer.h.28.attn.proj.linear.weight', 'transformer.h.28.mlp.fc_1.linear.weight', 'transformer.h.28.mlp.fc_2.linear.weight', 'transformer.h.28.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.29 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.29.attn.attn.lora_A', 'transformer.h.29.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.29.norm_1.weight', 'transformer.h.29.norm_2.weight', 'transformer.h.29.attn.attn.linear.weight', 'transformer.h.29.attn.proj.linear.weight', 'transformer.h.29.mlp.fc_1.linear.weight', 'transformer.h.29.mlp.fc_2.linear.weight', 'transformer.h.29.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.30 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.30.attn.attn.lora_A', 'transformer.h.30.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.30.norm_1.weight', 'transformer.h.30.norm_2.weight', 'transformer.h.30.attn.attn.linear.weight', 'transformer.h.30.attn.proj.linear.weight', 'transformer.h.30.mlp.fc_1.linear.weight', 'transformer.h.30.mlp.fc_2.linear.weight', 'transformer.h.30.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/distributed/fsdp/_wrap_utils.py:175: UserWarning: transformer.h.31 has both parameters with requires_grad=True and False. We do not recommend wrapping such modules since the gradient memory usage will be higher than expected (202514432 numel instead of 131072 numel before sharding via reduce-scatter). If possible, wrap the frozen parameters with FSDP separately.
+The following parameters have requires_grad=True:
+['transformer.h.31.attn.attn.lora_A', 'transformer.h.31.attn.attn.lora_B']
+The following parameters have requires_grad=False:
+['transformer.h.31.norm_1.weight', 'transformer.h.31.norm_2.weight', 'transformer.h.31.attn.attn.linear.weight', 'transformer.h.31.attn.proj.linear.weight', 'transformer.h.31.mlp.fc_1.linear.weight', 'transformer.h.31.mlp.fc_2.linear.weight', 'transformer.h.31.mlp.proj.linear.weight']
+  warnings.warn(msg)
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/home/552/ps8597/scratch/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]

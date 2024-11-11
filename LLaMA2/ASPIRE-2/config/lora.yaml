@@ -1,0 +1,28 @@
+precision: bf16-true
+quantize:
+
+
+lora_r: 32
+lora_alpha: 16
+lora_dropout: 0.05
+train:
+  save_interval: 20000
+  log_interval: 1
+  lr_warmup_steps: 10
+  epochs: 1
+  max_steps:
+  max_seq_length: 512
+eval:
+  interval: 25000
+  initial_validation: false
+  final_validation: true
+optimizer:
+  class_path: torch.optim.AdamW
+  init_args:
+    lr: 0.0002
+    weight_decay: 0.0
+    betas:
+      - 0.9
+      - 0.95
+logger_name: csv
+

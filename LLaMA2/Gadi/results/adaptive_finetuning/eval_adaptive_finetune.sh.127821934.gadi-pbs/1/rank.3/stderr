@@ -1,0 +1,15 @@
+[gadi-gpu-v100-0119.gadi.nci.org.au:1087007] MCW rank 3 bound to socket 0[core 3[hwt 0]]: [./././B/./././././././././././././././././././.][./././././././././././././././././././././././.]
+usage: __main__.py [options] evaluate [-h] [--config CONFIG]
+                                      [--print_config [=flags]]
+                                      [--tasks TASKS] [--out_dir OUT_DIR]
+                                      [--force_conversion {true,false}]
+                                      [--num_fewshot NUM_FEWSHOT]
+                                      [--batch_size BATCH_SIZE]
+                                      [--device DEVICE]
+                                      [--dtype.help CLASS_PATH_OR_NAME]
+                                      [--dtype DTYPE] [--limit LIMIT]
+                                      [--seed SEED]
+                                      [--save_filepath SAVE_FILEPATH]
+                                      [--access_token ACCESS_TOKEN]
+                                      checkpoint_dir
+error: Unrecognized arguments: \

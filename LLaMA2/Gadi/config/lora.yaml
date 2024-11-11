@@ -1,0 +1,46 @@
+precision: bf16-true
+# If set, quantize the model with this algorithm. See ``tutorials/quantize.md`` for more information. (type: Optional[Literal['nf4', 'nf4-dq', 'fp4', 'fp4-dq', 'int8-training']], default: null)
+quantize:
+
+
+# The LoRA rank. (type: int, default: 8)
+lora_r: 8
+# The LoRA alpha. (type: int, default: 16)
+lora_alpha: 16
+# The LoRA dropout value. (type: float, default: 0.05)
+lora_dropout: 0.1
+# Whether to apply LoRA to the query weights in attention. (type: bool, default: True)
+lora_query: true
+# Whether to apply LoRA to the key weights in attention. (type: bool, default: False)
+lora_key: false
+# Whether to apply LoRA to the value weights in attention. (type: bool, default: True)
+lora_value: true
+# Whether to apply LoRA to the output projection in the attention block. (type: bool, default: False)
+lora_projection: false
+# Whether to apply LoRA to the weights of the MLP in the attention block. (type: bool, default: False)
+lora_mlp: false
+# Whether to apply LoRA to output head in GPT. (type: bool, default: False)
+lora_head: false
+# Training-related arguments. See ``litgpt.args.TrainArgs`` for details
+train:
+  # Number of optimizer steps between saving checkpoints (type: Optional[int], default: 1000)
+  save_interval: 20000
+  # Number of iterations between logging calls (type: int, default: 1)
+  log_interval: 1
+  # Number of iterations with learning rate warmup active (type: int, default: 100)
+  lr_warmup_steps: 10
+  # Number of epochs to train on (type: Optional[int], default: 5)
+  epochs: 1
+  # Limits the number of optimizer steps to run. (type: Optional[int], default: null)
+  max_steps:
+  # Limits the length of samples. Off by default (type: Optional[int], default: null)
+  max_seq_length: 512
+# Evaluation-related arguments. See ``litgpt.args.EvalArgs`` for details
+eval:
+  interval: 25000
+  initial_validation: false
+  final_validation: false
+
+logger_name: csv
+
+

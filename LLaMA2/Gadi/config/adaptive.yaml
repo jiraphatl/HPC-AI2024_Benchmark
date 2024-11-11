@@ -1,0 +1,26 @@
+precision: bf16-true
+train:
+  save_interval: 20000
+  log_interval: 1
+  epochs: 1
+  max_steps:
+  max_seq_length: 512
+eval:
+  interval: 25000
+  initial_validation: false
+  final_validation: false
+logger_name: csv
+optimizer:
+  class_path: torch.optim.AdamW
+  init_args:
+    
+    #   (type: float, default: 0.001)
+    lr: 0.0002
+    
+    #   (type: float, default: 0.01)
+    weight_decay: 0.0
+    
+    #   (type: tuple, default: (0.9,0.999))
+    betas:
+      - 0.9
+      - 0.95
