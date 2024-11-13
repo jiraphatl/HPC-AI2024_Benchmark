@@ -8,7 +8,7 @@ High-performance computing (HPC) and artificial intelligence (AI) are foundation
 
 
 ## Benchmark Structure
-s
+
 **Task 2: Artificial Intelligence (AI)**
 **Application: LLaMA 2** (Large Language Model Training)
 Involves fine-tuning the LLaMA 2 model on the **Alpaca1024** dataset. Performance is assessed based on training time and model accuracy.
