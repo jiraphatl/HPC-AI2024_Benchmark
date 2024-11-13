@@ -1,0 +1,427 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/bash: module: line 1: syntax error: unexpected end of file
+/bin/bash: error importing function definition for `module'
+Sat Nov  2 19:38:10 +08 2024
+CONDA_SHLVL=1
+PBS_ENVIRONMENT=PBS_BATCH
+LD_LIBRARY_PATH=/opt/cray/libfabric/1.11.0.4.125/lib64:/app/apps/openmpi/4.1.2-hpe/lib:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/lib:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/lib:/app/apps/local/lib64:/app/apps/local/lib
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+CONDA_EXE=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin/conda
+PBS_O_LANG=en_US.UTF-8
+PRGENVMODULES=PrgEnv-aocc:PrgEnv-cray:PrgEnv-gnu:PrgEnv-intel:PrgEnv-nvidia:PrgEnv-pgi:PrrgEnv-amd
+max_steps=20
+SSH_CONNECTION=10.103.62.13 42998 10.103.153.100 22
+LANG=en_US.UTF-8
+TZ=Asia/Singapore
+HISTCONTROL=ignoredups
+DISPLAY=localhost:16.0
+HOSTNAME=x1000c1s1b0n0
+OLDPWD=/home/users/industry/ai-hpc/apacsc41/run/llama-run
+PBS_O_HOME=/home/users/industry/ai-hpc/apacsc41
+PBS_JOBID=8561237.pbs101
+ENVIRONMENT=BATCH
+global_batch_size=512
+PBS_JOBNAME=adapter-gb.nodes2.GBS512.MBS128
+FPATH=:/opt/cray/pe/modules/3.2.11.6/init/sh_funcs/no_redirect:/opt/cray/pe/modules/3.2.11.6/init/sh_funcs/no_redirect
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+NCPUS=64
+CONDA_PREFIX=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3
+PBS_O_PATH=/app/apps/openmpi/4.1.2-hpe/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/condabin:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/bin:/home/users/industry/ai-hpc/apacsc41/.local/bin:/home/users/industry/ai-hpc/apacsc41/bin:/opt/cray/pe/pals/1.1.6/bin:/opt/cray/pe/craype/2.7.15/bin:/opt/cray/pe/cce/13.0.2/binutils/x86_64/x86_64-pc-linux-gnu/bin:/opt/cray/pe/cce/13.0.2/binutils/cross/x86_64-aarch64/bin:/opt/cray/pe/cce/13.0.2/utils/x86_64/bin:/opt/cray/pe/cce/13.0.2/bin:/opt/cray/pe/perftools/22.04.0/bin:/opt/cray/pe/papi/6.0.0.14/bin:/opt/cray/libfabric/1.11.0.4.125/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/app/apps/local/bin:/opt/c3/bin:/usr/lpp/mmfs/bin:/opt/pbs/bin:/sbin:/bin:/opt/cray/pe/bin
+S_COLORS=auto
+C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no
+_CE_M=
+XDG_SESSION_ID=81843
+PE_OPENMPI_BASEDIR=/app/apps/openmpi/4.1.2-hpe
+PBS_O_WORKDIR=/home/users/industry/ai-hpc/apacsc41/run/llama-run/new
+USER=apacsc41
+MODULE_VERSION=3.2.11.6
+TOOLMODULES=apprentice:apprentice2:atp:ccdb:cdt:chapel:cray-cti:cray-lgdb:craypat:craypkg-gen:cray-R:cray-snplauncher:ddt:gdb:gdb4hpc:iobuf:papi:perftools:perftools-lite:python:stat:totalview:xt-craypat:xt-lgdb:xt-papi:xt-totalview
+micro_batch_size=128
+PBS_NODEFILE=/var/spool/pbs/aux/8561237.pbs101
+KSH_AUTOLOAD=1
+PE_FORTRAN_PKGCONFIG_LIBS=ompi-fort
+PBS_TASKNUM=1
+PWD=/home/users/industry/ai-hpc/apacsc41
+TARGETMODULES=craype-accel-amd-gfx908:craype-accel-amd-gfx90a:craype-accel-host:craype-accel-nvidia70:craype-accel-nvidia80:craype-network-none:craype-network-ofi:craype-network-ucx:craype-x86-milan:craype-x86-milan-x:craype-x86-rome:craype-x86-trento
+HOME=/home/users/industry/ai-hpc/apacsc41
+CONDA_PYTHON_EXE=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin/python
+PELOCAL_PRGENV=true
+SSH_CLIENT=10.103.62.13 42998 22
+CPATH=/app/apps/openmpi/4.1.2-hpe/include
+PBS_MOMPORT=15003
+OPENMPI_VERSION=4.1.2-hpe
+XDG_DATA_DIRS=/home/users/industry/ai-hpc/apacsc41/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PE_CXX_PKGCONFIG_LIBS=ompi-cxx
+_CE_CONDA=
+GSETTINGS_SCHEMA_DIR=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/share/glib-2.0/schemas
+PBS_JOBCOOKIE=706EECD218AC486E6140DC5C417267C4
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.8561237.pbs101
+LIBRARY_PATH=/app/apps/openmpi/4.1.2-hpe/lib
+PE_PKGCONFIG_LIBS=ompi
+USERMODULES=acml:alps:apprentice:apprentice2:atp:blcr:cce:chapel:cray-ccdb:cray-fftw:cray-ga:cray-hdf5:cray-hdf5-parallel:cray-lgdb:cray-libsci:cray-libsci_acc:cray-mpich:cray-mpich2:cray-mpich-compat:cray-netcdf:cray-netcdf-hdf5parallel:cray-openshmemx:cray-parallel-netcdf:craypat:craype:cray-petsc:cray-petsc-complex:craypkg-gen:cray-R:cray-shmem:cray-snplauncher:cray-tpsl:cray-trilinos:cudatoolkit:ddt:fftw:ga:gcc:hdf5:hdf5-parallel:intel:iobuf:java:lgdb:libfast:libsci_acc:mpich1:netcdf:netcdf-hdf5parallel:netcdf-nofsync:netcdf-nofsync-hdf5parallel:ntk:nvidia:onesided:papi:parallel-netcdf:pathscale:perftools:perftools-lite:petsc:petsc-complex:pgi:pmi:PrgEnv-amd:PrgEnv-aocc:PrgEnv-cray:PrgEnv-gnu:PrgEnv-intel:PrgEnv-nvidia:PrgEnv-pathscale:PrgEnv-pgi:python:rocm-compiler:stat:totalview:tpsl:trilinos:xt-asyncpe:xt-craypat:xt-lgdb:xt-libsci:xt-mpich2:xt-mpt:xt-papi:xt-shmem:xt-totalview
+LOADEDMODULES=openmpi/4.1.2-hpe:libfabric/1.11.0.4.125
+LIBRARYMODULES=acml:alps:cray-dwarf:cray-fftw:cray-ga:cray-hdf5:cray-hdf5-parallel:cray-libsci:cray-libsci_acc:cray-mpich:cray-mpich2:cray-mpich-abi:cray-netcdf:cray-netcdf-hdf5parallel:cray-parallel-netcdf:cray-petsc:cray-petsc-complex:cray-shmem:cray-tpsl:cray-trilinos:cudatoolkit:fftw:ga:hdf5:hdf5-parallel:iobuf:libfast:netcdf:netcdf-hdf5parallel:ntk:onesided:papi:petsc:petsc-complex:pmi:tpsl:trilinos:xt-libsci:xt-mpich2:xt-mpt:xt-papi
+CONDA_PROMPT_MODIFIER=(base) 
+SSH_TTY=/dev/pts/41
+MAIL=/var/spool/mail/apacsc41
+MOTDLOCK=1
+CRAY_SITE_LIST_DIR=/etc/cray-pe.d/cray-modules
+SHELL=/bin/bash
+TERM=xterm
+walltime=7201
+USE_PCM_DB=2
+CUDA_DEVICE_ORDER=PCI_BUS_ID
+CUDA_VISIBLE_DEVICES=GPU-88d8b15f-cd4f-6169-6056-9e8d12901aac,GPU-7c43678a-c3eb-008c-b122-637bb4020cf0,GPU-ddcf9b88-0f3b-2e97-e831-95ef353539fc,GPU-69cce928-f6a6-dc9d-0d14-90cd87f6fa8d
+SHLVL=4
+LANGUAGE=en_US.UTF-8
+PBS_O_HOST=asp2a-login-nscc01.head.cm.asp2a.nscc.sg
+PBS_O_SYSTEM=Linux
+MANPATH=/opt/cray/libfabric/1.11.0.4.125/share/man:/app/apps/openmpi/4.1.2-hpe/share/man:/opt/cray/pe/modules/3.2.11.6/share/man:/opt/cray/pe/modules/3.2.11.6/share/man::/opt/c3/man:/opt/pbs/share/man:/opt/clmgr/man:/opt/sgi/share/man:/opt/clmgr/share/man:/opt/clmgr/lib/cm-cli/man:/opt/pbs/share/man:/opt/clmgr/man:/opt/sgi/share/man:/opt/clmgr/share/man:/opt/clmgr/lib/cm-cli/man
+OSCAR_HOME=/opt/oscar
+PBS_O_LOGNAME=apacsc41
+PBS_NODENUM=0
+GDK_BACKEND=x11
+MODULEPATH=/opt/cray/pe/modulefiles:/opt/cray/modulefiles:/opt/modulefiles:/opt/cray/pe/craype-targets/default/modulefiles:/app/apps/modulefiles:/app/libs/modulefiles
+PBS_JOBDIR=/home/users/industry/ai-hpc/apacsc41
+LOGNAME=apacsc41
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-7t6YN9Vre9,guid=d62d2d061c6f9e732be119176725ecca
+XDG_RUNTIME_DIR=/run/user/12353
+BASH_FUNC_module%%=() {  eval `/opt/cray/pe/modules/3.2.11.6/bin/modulecmd bash $*`
+nodes=2
+MODULE_VERSION_STACK=3.2.11.6
+PE_C_PKGCONFIG_LIBS=ompi-c
+OPENMPI_DIR=/app/apps/openmpi/4.1.2-hpe
+PATH=/opt/cray/libfabric/1.11.0.4.125/bin:/app/apps/openmpi/4.1.2-hpe/bin:/app/apps/openmpi/4.1.2-hpe/include:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/condabin:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/bin:/home/users/industry/ai-hpc/apacsc41/.local/bin:/home/users/industry/ai-hpc/apacsc41/bin:/opt/cray/pe/cce/13.0.2/binutils/cross/x86_64-aarch64/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/app/apps/local/bin:/opt/c3/bin:/usr/lpp/mmfs/bin:/opt/pbs/bin:/sbin:/bin:/opt/pbs/bin:/sbin:/bin
+_LMFILES_=/app/apps/modulefiles/openmpi/4.1.2-hpe:/opt/cray/modulefiles/libfabric/1.11.0.4.125
+PBS_QUEUE=g4
+MODULESHOME=/opt/cray/pe/modules/3.2.11.6
+PKG_CONFIG_PATH=/opt/cray/libfabric/1.11.0.4.125/lib64/pkgconfig:/app/apps/openmpi/4.1.2-hpe/lib/pkgconfig
+CONDA_DEFAULT_ENV=base
+HISTSIZE=1000
+XML_CATALOG_FILES=file:///home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/etc/xml/catalog file:///etc/xml/catalog
+OPENMPI_POST_LINK_OPTS=-L/app/apps/openmpi/4.1.2-hpe/lib -Wl,-rpath=/app/apps/openmpi/4.1.2-hpe/lib
+PBS_O_MAIL=/var/spool/mail/apacsc41
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+OMP_NUM_THREADS=64
+LC_TIME=en_US.UTF-8
+BASH_FUNC_module%%=() {  eval `/opt/cray/pe/modules/3.2.11.6/bin/modulecmd bash $*`
+}
+_=/usr/bin/env
+x1000c1s1b0n0.hostmgmt2000.cm.asp2a.nscc.sg
+x1000c1s1b0n1.hostmgmt2000.cm.asp2a.nscc.sg
+mpirun -wdir /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama -output-filename /home/users/industry/ai-hpc/apacsc41/run/output/adapter/adapter-gb.nodes2.GBS512.MBS128.8561237.pbs101 -map-by ppr:4:node -oversubscribe -report-bindings -x NCCL_DEBUG=INFO -x NCCL_NET_GDR_LEVEL=0 -x NCCL_IB_DISABLE=1 -mca pml ^ucx /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/litgpt.py312/bin/python /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/litgpt/litgpt/__main__.py finetune_adapter /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf --out_dir /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/adapter-gb/third --data JSON --data.json_path /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024 --config /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/adaptive.yaml --eval.final_validation=false --train.epochs=1 --devices=4 --num_nodes=2 --train.max_steps=20 --train.global_batch_size=512 --train.micro_batch_size=128
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+usage: __main__.py [options] finetune_adapter [-h] [--config CONFIG]
+                                              [--print_config [=flags]]
+                                              [--out_dir OUT_DIR]
+                                              [--precision PRECISION]
+                                              [--quantize QUANTIZE]
+                                              [--devices DEVICES]
+                                              [--num_nodes NUM_NODES]
+                                              [--data.help CLASS_PATH_OR_NAME]
+                                              [--data DATA] [--train CONFIG]
+                                              [--train.save_interval SAVE_INTERVAL]
+                                              [--train.log_interval LOG_INTERVAL]
+                                              [--train.global_batch_size GLOBAL_BATCH_SIZE]
+                                              [--train.micro_batch_size MICRO_BATCH_SIZE]
+                                              [--train.lr_warmup_steps LR_WARMUP_STEPS]
+                                              [--train.lr_warmup_fraction LR_WARMUP_FRACTION]
+                                              [--train.epochs EPOCHS]
+                                              [--train.max_tokens MAX_TOKENS]
+                                              [--train.max_steps MAX_STEPS]
+                                              [--train.max_seq_length MAX_SEQ_LENGTH]
+                                              [--train.tie_embeddings {true,false,null}]
+                                              [--train.max_norm MAX_NORM]
+                                              [--train.min_lr MIN_LR]
+                                              [--eval CONFIG]
+                                              [--eval.interval INTERVAL]
+                                              [--eval.max_new_tokens MAX_NEW_TOKENS]
+                                              [--eval.max_iters MAX_ITERS]
+                                              [--eval.initial_validation {true,false}]
+                                              [--eval.final_validation {true,false}]
+                                              [--optimizer OPTIMIZER]
+                                              [--logger_name {wandb,tensorboard,csv}]
+                                              [--seed SEED]
+                                              [--access_token ACCESS_TOKEN]
+                                              checkpoint_dir
+error: Problems parsing config: while scanning a simple key
+  in "<unicode string>", line 7, column 3
+could not find expected ':'
+  in "<unicode string>", line 8, column 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16933,1],6]
+  Exit code:    2
+--------------------------------------------------------------------------

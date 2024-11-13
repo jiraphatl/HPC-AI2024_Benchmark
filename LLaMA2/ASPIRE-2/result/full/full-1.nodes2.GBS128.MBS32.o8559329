@@ -1,0 +1,751 @@
+Sat Nov  2 15:42:13 +08 2024
+CONDA_SHLVL=1
+PBS_ENVIRONMENT=PBS_BATCH
+LD_LIBRARY_PATH=/opt/cray/libfabric/1.11.0.4.125/lib64:/app/apps/openmpi/4.1.2-hpe/lib:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/lib:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/lib:/app/apps/local/lib64:/app/apps/local/lib
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+CONDA_EXE=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin/conda
+nvidia_group_id=24
+PBS_O_LANG=en_US.UTF-8
+PRGENVMODULES=PrgEnv-aocc:PrgEnv-cray:PrgEnv-gnu:PrgEnv-intel:PrgEnv-nvidia:PrgEnv-pgi:PrrgEnv-amd
+max_steps=20
+SSH_CONNECTION=10.103.62.245 56260 10.103.153.100 22
+LANG=en_US.UTF-8
+TZ=Asia/Singapore
+HISTCONTROL=ignoredups
+DISPLAY=localhost:11.0
+HOSTNAME=x1000c2s7b0n0
+OLDPWD=/home/users/industry/ai-hpc/apacsc41/run/llama-run
+PBS_O_HOME=/home/users/industry/ai-hpc/apacsc41
+PBS_JOBID=8559329.pbs101
+ENVIRONMENT=BATCH
+global_batch_size=128
+PBS_JOBNAME=full-1.nodes2.GBS128.MBS32
+FPATH=:/opt/cray/pe/modules/3.2.11.6/init/sh_funcs/no_redirect:/opt/cray/pe/modules/3.2.11.6/init/sh_funcs/no_redirect
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+NCPUS=64
+CONDA_PREFIX=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3
+PBS_O_PATH=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/condabin:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/bin:/home/users/industry/ai-hpc/apacsc41/.local/bin:/home/users/industry/ai-hpc/apacsc41/bin:/opt/cray/pe/pals/1.1.6/bin:/opt/cray/pe/craype/2.7.15/bin:/opt/cray/pe/cce/13.0.2/binutils/x86_64/x86_64-pc-linux-gnu/bin:/opt/cray/pe/cce/13.0.2/binutils/cross/x86_64-aarch64/bin:/opt/cray/pe/cce/13.0.2/utils/x86_64/bin:/opt/cray/pe/cce/13.0.2/bin:/opt/cray/pe/perftools/22.04.0/bin:/opt/cray/pe/papi/6.0.0.14/bin:/opt/cray/libfabric/1.11.0.4.125/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/app/apps/local/bin:/opt/c3/bin:/usr/lpp/mmfs/bin:/opt/pbs/bin:/sbin:/bin:/opt/cray/pe/bin
+S_COLORS=auto
+C3_RSH=ssh -oConnectTimeout=10 -oForwardX11=no
+_CE_M=
+XDG_SESSION_ID=80985
+PE_OPENMPI_BASEDIR=/app/apps/openmpi/4.1.2-hpe
+PBS_O_WORKDIR=/home/users/industry/ai-hpc/apacsc41/run/llama-run/new
+USER=apacsc41
+MODULE_VERSION=3.2.11.6
+TOOLMODULES=apprentice:apprentice2:atp:ccdb:cdt:chapel:cray-cti:cray-lgdb:craypat:craypkg-gen:cray-R:cray-snplauncher:ddt:gdb:gdb4hpc:iobuf:papi:perftools:perftools-lite:python:stat:totalview:xt-craypat:xt-lgdb:xt-papi:xt-totalview
+micro_batch_size=32
+PBS_NODEFILE=/var/spool/pbs/aux/8559329.pbs101
+KSH_AUTOLOAD=1
+PE_FORTRAN_PKGCONFIG_LIBS=ompi-fort
+PBS_TASKNUM=1
+PWD=/home/users/industry/ai-hpc/apacsc41
+TARGETMODULES=craype-accel-amd-gfx908:craype-accel-amd-gfx90a:craype-accel-host:craype-accel-nvidia70:craype-accel-nvidia80:craype-network-none:craype-network-ofi:craype-network-ucx:craype-x86-milan:craype-x86-milan-x:craype-x86-rome:craype-x86-trento
+HOME=/home/users/industry/ai-hpc/apacsc41
+CONDA_PYTHON_EXE=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin/python
+PELOCAL_PRGENV=true
+SSH_CLIENT=10.103.62.245 56260 22
+CPATH=/app/apps/openmpi/4.1.2-hpe/include
+PBS_MOMPORT=15003
+OPENMPI_VERSION=4.1.2-hpe
+XDG_DATA_DIRS=/home/users/industry/ai-hpc/apacsc41/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PE_CXX_PKGCONFIG_LIBS=ompi-cxx
+_CE_CONDA=
+GSETTINGS_SCHEMA_DIR=/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/share/glib-2.0/schemas
+PBS_JOBCOOKIE=564612FB0978682768848C1D0289486E
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.8559329.pbs101
+LIBRARY_PATH=/app/apps/openmpi/4.1.2-hpe/lib
+PE_PKGCONFIG_LIBS=ompi
+USERMODULES=acml:alps:apprentice:apprentice2:atp:blcr:cce:chapel:cray-ccdb:cray-fftw:cray-ga:cray-hdf5:cray-hdf5-parallel:cray-lgdb:cray-libsci:cray-libsci_acc:cray-mpich:cray-mpich2:cray-mpich-compat:cray-netcdf:cray-netcdf-hdf5parallel:cray-openshmemx:cray-parallel-netcdf:craypat:craype:cray-petsc:cray-petsc-complex:craypkg-gen:cray-R:cray-shmem:cray-snplauncher:cray-tpsl:cray-trilinos:cudatoolkit:ddt:fftw:ga:gcc:hdf5:hdf5-parallel:intel:iobuf:java:lgdb:libfast:libsci_acc:mpich1:netcdf:netcdf-hdf5parallel:netcdf-nofsync:netcdf-nofsync-hdf5parallel:ntk:nvidia:onesided:papi:parallel-netcdf:pathscale:perftools:perftools-lite:petsc:petsc-complex:pgi:pmi:PrgEnv-amd:PrgEnv-aocc:PrgEnv-cray:PrgEnv-gnu:PrgEnv-intel:PrgEnv-nvidia:PrgEnv-pathscale:PrgEnv-pgi:python:rocm-compiler:stat:totalview:tpsl:trilinos:xt-asyncpe:xt-craypat:xt-lgdb:xt-libsci:xt-mpich2:xt-mpt:xt-papi:xt-shmem:xt-totalview
+LOADEDMODULES=openmpi/4.1.2-hpe:libfabric/1.11.0.4.125
+LIBRARYMODULES=acml:alps:cray-dwarf:cray-fftw:cray-ga:cray-hdf5:cray-hdf5-parallel:cray-libsci:cray-libsci_acc:cray-mpich:cray-mpich2:cray-mpich-abi:cray-netcdf:cray-netcdf-hdf5parallel:cray-parallel-netcdf:cray-petsc:cray-petsc-complex:cray-shmem:cray-tpsl:cray-trilinos:cudatoolkit:fftw:ga:hdf5:hdf5-parallel:iobuf:libfast:netcdf:netcdf-hdf5parallel:ntk:onesided:papi:petsc:petsc-complex:pmi:tpsl:trilinos:xt-libsci:xt-mpich2:xt-mpt:xt-papi
+CONDA_PROMPT_MODIFIER=(base) 
+SSH_TTY=/dev/pts/1
+PBS_O_QUEUE=normal
+MAIL=/var/spool/mail/apacsc41
+MOTDLOCK=1
+CRAY_SITE_LIST_DIR=/etc/cray-pe.d/cray-modules
+SHELL=/bin/bash
+TERM=xterm
+walltime=7201
+USE_PCM_DB=2
+CUDA_DEVICE_ORDER=PCI_BUS_ID
+CUDA_VISIBLE_DEVICES=GPU-5d0bed42-d3bd-25d5-b02c-ce6c19f8e551,GPU-281bedf0-480c-3ced-653d-6158a58ab3db,GPU-f6553dd6-7d7f-be9a-f4ee-3434b4ac6132,GPU-f6caa899-f456-d3c1-d29e-75361c9ba0a4
+SHLVL=4
+LANGUAGE=en_US.UTF-8
+PBS_O_HOST=asp2a-login-nscc01.head.cm.asp2a.nscc.sg
+PBS_O_SYSTEM=Linux
+MANPATH=/opt/cray/libfabric/1.11.0.4.125/share/man:/app/apps/openmpi/4.1.2-hpe/share/man:/opt/cray/pe/modules/3.2.11.6/share/man:/opt/cray/pe/modules/3.2.11.6/share/man::/opt/c3/man:/opt/pbs/share/man:/opt/clmgr/man:/opt/sgi/share/man:/opt/clmgr/share/man:/opt/clmgr/lib/cm-cli/man:/opt/pbs/share/man:/opt/clmgr/man:/opt/sgi/share/man:/opt/clmgr/share/man:/opt/clmgr/lib/cm-cli/man
+OSCAR_HOME=/opt/oscar
+PBS_O_LOGNAME=apacsc41
+PBS_NODENUM=0
+GDK_BACKEND=x11
+MODULEPATH=/opt/cray/pe/modulefiles:/opt/cray/modulefiles:/opt/modulefiles:/opt/cray/pe/craype-targets/default/modulefiles:/app/apps/modulefiles:/app/libs/modulefiles
+PBS_JOBDIR=/home/users/industry/ai-hpc/apacsc41
+LOGNAME=apacsc41
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-q51ZEXW4aU,guid=7810dc4d158830661feb15386725bef9
+XDG_RUNTIME_DIR=/run/user/12353
+nodes=2
+MODULE_VERSION_STACK=3.2.11.6
+PE_C_PKGCONFIG_LIBS=ompi-c
+OPENMPI_DIR=/app/apps/openmpi/4.1.2-hpe
+PATH=/opt/cray/libfabric/1.11.0.4.125/bin:/app/apps/openmpi/4.1.2-hpe/bin:/app/apps/openmpi/4.1.2-hpe/include:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/bin:/home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/condabin:/home/users/industry/ai-hpc/apacsc41/proj/app/libunwind/bin:/home/users/industry/ai-hpc/apacsc41/.local/bin:/home/users/industry/ai-hpc/apacsc41/bin:/opt/cray/pe/cce/13.0.2/binutils/cross/x86_64-aarch64/bin:/opt/clmgr/sbin:/opt/clmgr/bin:/opt/sgi/sbin:/opt/sgi/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/app/apps/local/bin:/opt/c3/bin:/usr/lpp/mmfs/bin:/opt/pbs/bin:/sbin:/bin:/opt/pbs/bin:/sbin:/bin
+_LMFILES_=/app/apps/modulefiles/openmpi/4.1.2-hpe:/opt/cray/modulefiles/libfabric/1.11.0.4.125
+PBS_QUEUE=g4
+MODULESHOME=/opt/cray/pe/modules/3.2.11.6
+PKG_CONFIG_PATH=/opt/cray/libfabric/1.11.0.4.125/lib64/pkgconfig:/app/apps/openmpi/4.1.2-hpe/lib/pkgconfig
+CONDA_DEFAULT_ENV=base
+HISTSIZE=1000
+XML_CATALOG_FILES=file:///home/users/industry/ai-hpc/apacsc41/proj/app/miniconda3/etc/xml/catalog file:///etc/xml/catalog
+OPENMPI_POST_LINK_OPTS=-L/app/apps/openmpi/4.1.2-hpe/lib -Wl,-rpath=/app/apps/openmpi/4.1.2-hpe/lib
+PBS_O_MAIL=/var/spool/mail/apacsc41
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+OMP_NUM_THREADS=64
+LC_TIME=en_US.UTF-8
+BASH_FUNC_module%%=() {  eval `/opt/cray/pe/modules/3.2.11.6/bin/modulecmd bash $*`
+}
+_=/usr/bin/env
+x1000c2s7b0n0.hostmgmt2000.cm.asp2a.nscc.sg
+x1000c2s7b0n1.hostmgmt2000.cm.asp2a.nscc.sg
+mpirun -wdir /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama -output-filename /home/users/industry/ai-hpc/apacsc41/run/output/full-1.nodes2.GBS128.MBS32.8559329.pbs101 -map-by ppr:4:node -oversubscribe -report-bindings -x NCCL_DEBUG=INFO -x NCCL_NET_GDR_LEVEL=0 -x NCCL_IB_DISABLE=1 -mca pml ^ucx /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/litgpt.py312/bin/litgpt finetune_full /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf --out_dir /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first --data JSON --data.json_path /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024 --config /home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/full.yaml --eval.final_validation=false --train.epochs=1 --devices=4 --num_nodes=2 --train.max_steps=20 --train.global_batch_size=128 --train.micro_batch_size=32
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/litgpt/args.py:49: UserWarning: `--train.lr_warmup_steps` should be less than `--train.max_steps`. Got 100 lr_warmup_steps and 20 max_steps.
+  warnings.warn(
+{'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ {'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ {'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ {'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ {'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x1454ed0cf3e0>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x14f743c47410>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x14d3c425a960>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+prompt_style=<litgpt.prompts.Alpaca object at 0x14ff720fa570>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+{'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ {'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ {'access_token': None,
+ 'checkpoint_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/model/litgpt/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x14ed85b62de0>,
+              ignore_index=-100,
+              'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x14ea67232de0>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'data': JSON(json_path=PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/dataset/alpaca1024'),
+              mask_prompt=False,
+              val_split_fraction=None,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x14d90d4009b0>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+prompt_style=<litgpt.prompts.Alpaca object at 0x14740e2de270>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+'eval': EvalArgs(interval=25000,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False,
+                  final_validation=False),
+ 'logger_name': 'csv',
+ 'num_nodes': 2,
+ 'optimizer': 'AdamW',
+ 'out_dir': PosixPath('/home/users/industry/ai-hpc/apacsc41/scratch/workdir/llama/out/finetune/new/full128/first'),
+ 'precision': 'bf16-true',
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=20000,
+                    log_interval=1,
+                    global_batch_size=128,
+                    micro_batch_size=32,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=1,
+                    max_tokens=None,
+                    max_steps=20,
+                    max_seq_length=512,
+                    tie_embeddings=None,
+                    max_norm=None,
+                    min_lr=6e-05)}
+[x1000c2s7b0n1:534088] MCW rank 4 is not bound (or bound to all available processors)
+[x1000c2s7b0n1:534091] MCW rank 7 is not bound (or bound to all available processors)
+[x1000c2s7b0n1:534090] MCW rank 6 is not bound (or bound to all available processors)
+[x1000c2s7b0n1:534089] MCW rank 5 is not bound (or bound to all available processors)
+[x1000c2s7b0n0:2819216] MCW rank 3 is not bound (or bound to all available processors)
+[x1000c2s7b0n0:2819213] MCW rank 0 is not bound (or bound to all available processors)
+[x1000c2s7b0n0:2819214] MCW rank 1 is not bound (or bound to all available processors)
+[x1000c2s7b0n0:2819215] MCW rank 2 is not bound (or bound to all available processors)
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           x1000c2s7b0n1
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+All GPUs are fully connected via NVLink.
+All GPUs are fully connected via NVLink.
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/8
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/8
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/8
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/8
+Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/8
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/8
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/8
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 8 processes
+----------------------------------------------------------------------------------------------------
+
+Seed set to 1337
+Seed set to 1337
+Seed set to 1337
+Seed set to 1337
+Seed set to 1337
+Seed set to 1337
+Seed set to 1337
+Seed set to 1337
+Number of trainable parameters: 6,738,415,616
+Number of trainable parameters: 6,738,415,616
+[x1000c2s7b0n0:2819197] 15 more processes have sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+[x1000c2s7b0n0:2819197] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+x1000c2s7b0n0:2819213:2819213 [0] NCCL INFO Bootstrap : Using hsn0:10.150.0.104<0>
+x1000c2s7b0n0:2819213:2819213 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n0:2819213:2819213 [0] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n0:2819215:2819215 [2] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n0:2819214:2819214 [1] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n0:2819216:2819216 [3] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.20.5+cuda12.4
+x1000c2s7b0n0:2819216:2819216 [3] NCCL INFO Bootstrap : Using hsn0:10.150.0.104<0>
+x1000c2s7b0n0:2819214:2819214 [1] NCCL INFO Bootstrap : Using hsn0:10.150.0.104<0>
+x1000c2s7b0n0:2819215:2819215 [2] NCCL INFO Bootstrap : Using hsn0:10.150.0.104<0>
+x1000c2s7b0n0:2819216:2819216 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n0:2819214:2819214 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n0:2819215:2819215 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n1:534091:534091 [3] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n1:534089:534089 [1] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n1:534090:534090 [2] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n1:534088:534088 [0] NCCL INFO cudaDriverVersion 12020
+x1000c2s7b0n1:534090:534090 [2] NCCL INFO Bootstrap : Using hsn0:10.150.0.25<0>
+x1000c2s7b0n1:534091:534091 [3] NCCL INFO Bootstrap : Using hsn0:10.150.0.25<0>
+x1000c2s7b0n1:534089:534089 [1] NCCL INFO Bootstrap : Using hsn0:10.150.0.25<0>
+x1000c2s7b0n1:534088:534088 [0] NCCL INFO Bootstrap : Using hsn0:10.150.0.25<0>
+x1000c2s7b0n1:534089:534089 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n1:534090:534090 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n1:534091:534091 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n1:534088:534088 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.104<0> [1]hsn1:10.150.0.197<0> [2]bond0:10.168.0.9<0>
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Using network Socket
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.104<0> [1]hsn1:10.150.0.197<0> [2]bond0:10.168.0.9<0>
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Using network Socket
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.25<0> [1]hsn1:10.150.0.24<0> [2]bond0:10.168.0.3<0>
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Using network Socket
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.104<0> [1]hsn1:10.150.0.197<0> [2]bond0:10.168.0.9<0>
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.104<0> [1]hsn1:10.150.0.197<0> [2]bond0:10.168.0.9<0>
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.25<0> [1]hsn1:10.150.0.24<0> [2]bond0:10.168.0.3<0>
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Using network Socket
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Using network Socket
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Using network Socket
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.25<0> [1]hsn1:10.150.0.24<0> [2]bond0:10.168.0.3<0>
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Using network Socket
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 1.
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO NET/Socket : Using [0]hsn0:10.150.0.25<0> [1]hsn1:10.150.0.24<0> [2]bond0:10.168.0.3<0>
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Using non-device net plugin version 0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Using network Socket
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO comm 0x56117512aa00 rank 2 nranks 8 cudaDev 2 nvmlDev 0 busId 3000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO comm 0x559dd179fd60 rank 3 nranks 8 cudaDev 3 nvmlDev 2 busId 81000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO comm 0x5595f6d6bb30 rank 1 nranks 8 cudaDev 1 nvmlDev 3 busId c1000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO comm 0x5581b64aa860 rank 0 nranks 8 cudaDev 0 nvmlDev 1 busId 41000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO comm 0x5593e6553c70 rank 6 nranks 8 cudaDev 2 nvmlDev 0 busId 3000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO comm 0x55bfd2f87ee0 rank 7 nranks 8 cudaDev 3 nvmlDev 2 busId 81000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO comm 0x5587c31769b0 rank 5 nranks 8 cudaDev 1 nvmlDev 3 busId c1000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO comm 0x55cc028c1640 rank 4 nranks 8 cudaDev 0 nvmlDev 1 busId 41000 commId 0x673af8b764be68ae - Init START
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Setting affinity for GPU 3 to ffff,00000000,0000ffff
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO NVLS multicast support is not available on dev 1
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Setting affinity for GPU 2 to ffff0000,00000000,ffff0000
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO NVLS multicast support is not available on dev 3
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Setting affinity for GPU 1 to ffff,00000000,0000ffff,00000000
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Setting affinity for GPU 0 to ffff0000,00000000,ffff0000,00000000
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO NVLS multicast support is not available on dev 0
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO NVLS multicast support is not available on dev 2
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Setting affinity for GPU 0 to ffff0000,00000000,ffff0000,00000000
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO NVLS multicast support is not available on dev 2
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Setting affinity for GPU 1 to ffff,00000000,0000ffff,00000000
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO NVLS multicast support is not available on dev 0
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Setting affinity for GPU 3 to ffff,00000000,0000ffff
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO NVLS multicast support is not available on dev 1
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Setting affinity for GPU 2 to ffff0000,00000000,ffff0000
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO NVLS multicast support is not available on dev 3
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO comm 0x559dd179fd60 rank 3 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Trees [0] -1/-1/-1->3->2 [1] -1/-1/-1->3->2 [2] -1/-1/-1->3->2 [3] -1/-1/-1->3->2
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO comm 0x56117512aa00 rank 2 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO comm 0x5595f6d6bb30 rank 1 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO comm 0x55cc028c1640 rank 4 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Trees [0] 5/-1/-1->4->0 [1] 5/-1/-1->4->0 [2] 5/0/-1->4->-1 [3] 5/0/-1->4->-1
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO comm 0x5581b64aa860 rank 0 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 00/04 :    0   3   6   5   4   7   2   1
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 01/04 :    0   5   7   6   4   1   3   2
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 02/04 :    0   3   6   5   4   7   2   1
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 03/04 :    0   5   7   6   4   1   3   2
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO comm 0x5593e6553c70 rank 6 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Trees [0] 1/4/-1->0->-1 [1] 1/4/-1->0->-1 [2] 1/-1/-1->0->4 [3] 1/-1/-1->0->4
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO comm 0x5587c31769b0 rank 5 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] 6/-1/-1->5->4
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO comm 0x55bfd2f87ee0 rank 7 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6 [2] -1/-1/-1->7->6 [3] -1/-1/-1->7->6
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO P2P Chunksize set to 131072
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 01/0 : 5[3] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 01/0 : 1[3] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 00/0 : 4[1] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 00/0 : 0[1] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 03/0 : 5[3] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 03/0 : 1[3] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 02/0 : 4[1] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 02/0 : 0[1] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 00/0 : 3[2] -> 6[0] [receive] via NET/Socket/1
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 00/0 : 7[2] -> 2[0] [receive] via NET/Socket/1
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 02/0 : 3[2] -> 6[0] [receive] via NET/Socket/1
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 01/0 : 4[1] -> 1[3] [receive] via NET/Socket/0
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 02/0 : 7[2] -> 2[0] [receive] via NET/Socket/1
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 01/0 : 0[1] -> 5[3] [receive] via NET/Socket/0
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Channel 00/0 : 3[2] -> 6[0] [send] via NET/Socket/1
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Channel 00/0 : 7[2] -> 2[0] [send] via NET/Socket/1
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 03/0 : 4[1] -> 1[3] [receive] via NET/Socket/0
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 03/0 : 0[1] -> 5[3] [receive] via NET/Socket/0
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Channel 02/0 : 3[2] -> 6[0] [send] via NET/Socket/1
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Channel 02/0 : 7[2] -> 2[0] [send] via NET/Socket/1
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Channel 01/0 : 3[2] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 01/0 : 2[0] -> 0[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Channel 01/0 : 7[2] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 01/0 : 6[0] -> 4[1] via P2P/CUMEM/read
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Channel 03/0 : 3[2] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 03/0 : 2[0] -> 0[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Channel 03/0 : 7[2] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 03/0 : 6[0] -> 4[1] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 01/0 : 0[1] -> 5[3] [send] via NET/Socket/0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 01/0 : 4[1] -> 1[3] [send] via NET/Socket/0
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 03/0 : 0[1] -> 5[3] [send] via NET/Socket/0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 03/0 : 4[1] -> 1[3] [send] via NET/Socket/0
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 00/0 : 1[3] -> 0[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 00/0 : 5[3] -> 4[1] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 02/0 : 1[3] -> 0[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 02/0 : 5[3] -> 4[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 00/0 : 6[0] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 00/0 : 2[0] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 02/0 : 6[0] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 02/0 : 2[0] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Connected all rings
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Connected all rings
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 00/0 : 0[1] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Connected all rings
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Connected all rings
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Connected all rings
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 00/0 : 4[1] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Connected all rings
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Connected all rings
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Connected all rings
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 01/0 : 0[1] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 01/0 : 4[1] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 02/0 : 0[1] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 00/0 : 2[0] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 00/0 : 1[3] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 03/0 : 0[1] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 02/0 : 4[1] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 03/0 : 4[1] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 00/0 : 5[3] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 00/0 : 6[0] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 01/0 : 1[3] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 01/0 : 2[0] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 01/0 : 5[3] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 02/0 : 1[3] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 01/0 : 6[0] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 02/0 : 2[0] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 03/0 : 1[3] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 02/0 : 5[3] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 02/0 : 6[0] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 03/0 : 5[3] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 03/0 : 6[0] -> 7[2] via P2P/CUMEM/read
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Channel 00/0 : 7[2] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 00/0 : 4[1] -> 0[1] [receive] via NET/Socket/1
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 03/0 : 2[0] -> 3[2] via P2P/CUMEM/read
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Channel 00/0 : 3[2] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Channel 02/0 : 7[2] -> 6[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 01/0 : 2[0] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 01/0 : 6[0] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 01/0 : 5[3] -> 4[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 00/0 : 0[1] -> 4[1] [receive] via NET/Socket/1
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Channel 03/0 : 2[0] -> 1[3] via P2P/CUMEM/read
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Channel 03/0 : 5[3] -> 4[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Channel 03/0 : 6[0] -> 5[3] via P2P/CUMEM/read
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Channel 02/0 : 3[2] -> 2[0] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 01/0 : 4[1] -> 0[1] [receive] via NET/Socket/0
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 01/0 : 1[3] -> 0[1] via P2P/CUMEM/read
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 01/0 : 0[1] -> 4[1] [receive] via NET/Socket/0
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Channel 03/0 : 1[3] -> 0[1] via P2P/CUMEM/read
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 02/0 : 4[1] -> 0[1] [receive] via NET/Socket/1
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 02/0 : 0[1] -> 4[1] [receive] via NET/Socket/1
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 03/0 : 4[1] -> 0[1] [receive] via NET/Socket/0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 03/0 : 0[1] -> 4[1] [receive] via NET/Socket/0
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 00/0 : 0[1] -> 4[1] [send] via NET/Socket/1
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 00/0 : 4[1] -> 0[1] [send] via NET/Socket/1
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 01/0 : 0[1] -> 4[1] [send] via NET/Socket/0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 01/0 : 4[1] -> 0[1] [send] via NET/Socket/0
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 02/0 : 0[1] -> 4[1] [send] via NET/Socket/1
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Channel 03/0 : 0[1] -> 4[1] [send] via NET/Socket/0
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 02/0 : 4[1] -> 0[1] [send] via NET/Socket/1
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Channel 03/0 : 4[1] -> 0[1] [send] via NET/Socket/0
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO Connected all trees
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO Connected all trees
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO Connected all trees
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO Connected all trees
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO Connected all trees
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO Connected all trees
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO Connected all trees
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO Connected all trees
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO 4 coll channels, 0 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+x1000c2s7b0n1:534088:535180 [0] NCCL INFO comm 0x55cc028c1640 rank 4 nranks 8 cudaDev 0 nvmlDev 1 busId 41000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n1:534090:535178 [2] NCCL INFO comm 0x5593e6553c70 rank 6 nranks 8 cudaDev 2 nvmlDev 0 busId 3000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n1:534089:535177 [1] NCCL INFO comm 0x5587c31769b0 rank 5 nranks 8 cudaDev 1 nvmlDev 3 busId c1000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n1:534091:535179 [3] NCCL INFO comm 0x55bfd2f87ee0 rank 7 nranks 8 cudaDev 3 nvmlDev 2 busId 81000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n0:2819215:2820302 [2] NCCL INFO comm 0x56117512aa00 rank 2 nranks 8 cudaDev 2 nvmlDev 0 busId 3000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n0:2819216:2820303 [3] NCCL INFO comm 0x559dd179fd60 rank 3 nranks 8 cudaDev 3 nvmlDev 2 busId 81000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n0:2819214:2820301 [1] NCCL INFO comm 0x5595f6d6bb30 rank 1 nranks 8 cudaDev 1 nvmlDev 3 busId c1000 commId 0x673af8b764be68ae - Init COMPLETE
+x1000c2s7b0n0:2819213:2820300 [0] NCCL INFO comm 0x5581b64aa860 rank 0 nranks 8 cudaDev 0 nvmlDev 1 busId 41000 commId 0x673af8b764be68ae - Init COMPLETE
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/lightning/fabric/strategies/model_parallel.py:535: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+The longest sequence length in the train data is 512, the model's maximum sequence length is 512 and context length is 4096
+Verifying settings ...
+The longest sequence length in the train data is 512, the model's maximum sequence length is 512 and context length is 4096
+Verifying settings ...
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+/scratch/users/industry/ai-hpc/apacsc41/workdir/llama/litgpt.py312/lib/python3.12/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+Epoch 1 | iter 1 step 1 | loss train: 1.428, val: n/a | iter time: 8145.36 ms (step)
+Epoch 1 | iter 1 step 1 | loss train: 1.417, val: n/a | iter time: 8165.19 ms (step)
+Epoch 1 | iter 2 step 2 | loss train: 1.627, val: n/a | iter time: 5096.56 ms (step)
+Epoch 1 | iter 2 step 2 | loss train: 1.435, val: n/a | iter time: 5073.91 ms (step)
+Epoch 1 | iter 3 step 3 | loss train: 1.330, val: n/a | iter time: 5081.33 ms (step)
+Epoch 1 | iter 3 step 3 | loss train: 1.288, val: n/a | iter time: 5077.35 ms (step)
+Epoch 1 | iter 4 step 4 | loss train: 0.963, val: n/a | iter time: 5085.52 ms (step)
+Epoch 1 | iter 4 step 4 | loss train: 1.012, val: n/a | iter time: 5084.02 ms (step)
+Epoch 2 | iter 5 step 5 | loss train: 0.880, val: n/a | iter time: 5321.95 ms (step)
+Epoch 2 | iter 5 step 5 | loss train: 0.836, val: n/a | iter time: 5321.44 ms (step)
+Training time: 33.62s
+Training time: 35.00s
+Memory used: 17.73 GB
+Memory used: 17.73 GB
+x1000c2s7b0n0:2819214:2820309 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+x1000c2s7b0n0:2819216:2820305 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+x1000c2s7b0n0:2819215:2820307 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+x1000c2s7b0n1:534090:535183 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+x1000c2s7b0n1:534089:535184 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+x1000c2s7b0n1:534091:535188 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+x1000c2s7b0n1:534088:535185 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+x1000c2s7b0n0:2819213:2820311 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+x1000c2s7b0n0:2819216:2824313 [3] NCCL INFO comm 0x559dd179fd60 rank 3 nranks 8 cudaDev 3 busId 81000 - Abort COMPLETE
+x1000c2s7b0n0:2819215:2824314 [2] NCCL INFO comm 0x56117512aa00 rank 2 nranks 8 cudaDev 2 busId 3000 - Abort COMPLETE
+x1000c2s7b0n0:2819214:2824312 [1] NCCL INFO comm 0x5595f6d6bb30 rank 1 nranks 8 cudaDev 1 busId c1000 - Abort COMPLETE
+x1000c2s7b0n1:534091:539239 [3] NCCL INFO comm 0x55bfd2f87ee0 rank 7 nranks 8 cudaDev 3 busId 81000 - Abort COMPLETE
+x1000c2s7b0n1:534090:539242 [2] NCCL INFO comm 0x5593e6553c70 rank 6 nranks 8 cudaDev 2 busId 3000 - Abort COMPLETE
+x1000c2s7b0n1:534089:539241 [1] NCCL INFO comm 0x5587c31769b0 rank 5 nranks 8 cudaDev 1 busId c1000 - Abort COMPLETE
+x1000c2s7b0n1:534088:539240 [0] NCCL INFO comm 0x55cc028c1640 rank 4 nranks 8 cudaDev 0 busId 41000 - Abort COMPLETE
+x1000c2s7b0n0:2819213:2824315 [0] NCCL INFO comm 0x5581b64aa860 rank 0 nranks 8 cudaDev 0 busId 41000 - Abort COMPLETE

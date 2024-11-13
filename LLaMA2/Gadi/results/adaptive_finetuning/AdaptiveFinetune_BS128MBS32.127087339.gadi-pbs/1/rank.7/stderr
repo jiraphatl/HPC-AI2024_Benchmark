@@ -1,5 +1,0 @@
-[gadi-gpu-v100-0080.gadi.nci.org.au:2582523] MCW rank 7 bound to socket 0[core 3[hwt 0]]: [./././B/./././././././././././././././././././.][./././././././././././././././././././././././.]
-usage: __main__.py [-h] [--config CONFIG] [--print_config [=flags]]
-                   {download,chat,finetune,finetune_lora,finetune_full,finetune_adapter,finetune_adapter_v2,pretrain,generate,generate_full,generate_adapter,generate_adapter_v2,generate_sequentially,generate_tp,convert_to_litgpt,convert_from_litgpt,convert_pretrained_checkpoint,merge_lora,evaluate,serve}
-                   ...
-error: argument subcommand: invalid choice: 'finetune_adaptive' (choose from 'download', 'chat', 'finetune', 'finetune_lora', 'finetune_full', 'finetune_adapter', 'finetune_adapter_v2', 'pretrain', 'generate', 'generate_full', 'generate_adapter', 'generate_adapter_v2', 'generate_sequentially', 'generate_tp', 'convert_to_litgpt', 'convert_from_litgpt', 'convert_pretrained_checkpoint', 'merge_lora', 'evaluate', 'serve')

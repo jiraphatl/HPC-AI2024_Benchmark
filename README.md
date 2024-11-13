@@ -8,12 +8,7 @@ High-performance computing (HPC) and artificial intelligence (AI) are foundation
 
 
 ## Benchmark Structure
-The **HPC-AI 2024 Benchmark Suite** consists of two main tasks:
-
-**Task 1: High-Performance Computing (HPC)**
-**Application: HOOMD-blue** (Particle Simulation)
-Focuses on molecular dynamics and hard particle Monte Carlo simulations, optimized for both GPUs and CPUs. Graded on **time steps per second.**
-
+s
 **Task 2: Artificial Intelligence (AI)**
 **Application: LLaMA 2** (Large Language Model Training)
 Involves fine-tuning the LLaMA 2 model on the **Alpaca1024** dataset. Performance is assessed based on training time and model accuracy.
